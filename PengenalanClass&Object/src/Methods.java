@@ -8,10 +8,16 @@ public class Methods {
         System.out.println("Hello, Public Methods");
     }
 
+    public void damage(int percentDamage){
+        System.out.println("Percent Damage is " + percentDamage);
+    }
+
     public static void main(String[] args) {
         StaticMethod();
 
-        Methods publicMethod = new Methods();
-        publicMethod.PublicMethod();
+        Methods Method = new Methods();
+        
+        Method.damage(200);
+        Method.PublicMethod();
     }
 }
