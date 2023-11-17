@@ -11,6 +11,7 @@ public class Methods {
     public static void main(String[] args) {
         StaticMethod();
 
-        Methods publi
+        Methods publicMethod = new Methods();
+        publicMethod.PublicMethod();
     }
 }
