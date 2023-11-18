@@ -1,5 +1,6 @@
-public class Methods {
+package Methods;
 
+public class Value {
     static void StaticMethod(){
         System.out.println("Hello, Static Methods");
     }
@@ -10,14 +11,5 @@ public class Methods {
 
     public void damage(int percentDamage){
         System.out.println("Percent Damage is " + percentDamage);
-    }
-
-    public static void main(String[] args) {
-        StaticMethod();
-
-        Methods Method = new Methods();
-        
-        Method.damage(200);
-        Method.PublicMethod();
     }
 }
