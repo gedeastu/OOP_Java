@@ -1,6 +1,6 @@
 package Attributes;
 
-public class Value {
+class Value {
 
     //Accessing Attributes
     String name = "Gede Astu Nugraha";

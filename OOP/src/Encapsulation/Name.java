@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class Name {
+class Name {
     private String name;
 
     //Getter
