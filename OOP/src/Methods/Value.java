@@ -37,7 +37,7 @@ class MemberLangganan{
         return this.nama;
     }
 
-   //Method
+   //Method return and parameter
     String favoriteNumbe(int max, int min){
         int number = random.nextInt((max - min) + 1) + min;
         return "Angka kesukaan " + this.nama + " is " + number;
