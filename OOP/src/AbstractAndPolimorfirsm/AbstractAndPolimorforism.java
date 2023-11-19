@@ -1,33 +1,5 @@
 package AbstractAndPolimorfirsm;
 
-
-// Abstract class sebagai bentuk abstraksi
-abstract class Shape {
-    // Metode abstrak yang akan diimplementasikan oleh kelas turunan
-    public abstract void draw();
-
-    // Metode konkrit yang bisa digunakan langsung atau di-override
-    public void display() {
-        System.out.println("Displaying shape");
-    }
-}
-
-// Kelas turunan yang mengimplementasikan metode abstrak
-class Circle extends Shape {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a circle");
-    }
-}
-
-// Kelas turunan lain yang mengimplementasikan metode abstrak
-class Rectangle extends Shape {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a rectangle");
-    }
-}
-
 public class AbstractAndPolimorforism {
 
     // Metode yang menggunakan polimorfisme
