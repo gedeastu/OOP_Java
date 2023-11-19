@@ -19,4 +19,12 @@ class Player {
         this.speed = speed;
         this.power = power;
     }
+
+    void equipJutsu(Jutsu jutsu) {
+        this.jutsu = jutsu;
+    }
+
+    void equipDurability(Durability durability){
+        this.durability = durability;
+    }
 }
