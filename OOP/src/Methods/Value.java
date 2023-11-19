@@ -12,6 +12,7 @@ import java.util.Random;
 
 class MemberLangganan{
     Random random = new Random();
+    
     String Location = "Indonesia";
     String nama;
     int Id;
