@@ -1,11 +1,12 @@
 package LatihanAssesment;
 
 abstract class Hewan {
+    public abstract void bersuara();
+}
+
+class IdentityHewan{
     String nama;
     int usia;
-
-    public abstract void bersuara();
-
     //getNama and setNama
     public String getNama(){
         return nama;
