@@ -6,6 +6,7 @@ public class Latihan01 {
 
         Player naruto = new Player("Uzumaki Naruto", 5000d, 23, 80.0f, 2000d);
         Jutsu rasengan = new Jutsu(500, "Rasengan", 1, "Wind Jutsu");
+        Durability KuramaShield = new Durability(1000, "Kurama Shield", 1, "Chakra");
         System.out.println(naruto.name + naruto.age);
     }
 }
