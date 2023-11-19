@@ -28,7 +28,7 @@ class Player {
         this.durability = durability;
     }
 
-    void identityNaruto(){
+    void aboutNaruto(){
         System.out.println(this.name + " is has power " + this.power + " and great health " + this.health + ", he age is " + this.age + " but he is too slow speed " + this.speed);
     }
 }

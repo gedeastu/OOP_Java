@@ -10,7 +10,7 @@ public class Latihan01 {
         naruto.equipDurability(KuramaShield);
 
         System.out.println("\n");
-        naruto.identityNaruto();
+        naruto.aboutNaruto();
         System.out.println(rasengan.detailJutsu(500d, "Rasengan", 1, "Wind Jutsu"));
         System.out.println("\n");
         System.out.println(KuramaShield.detailDurability(2000d, "Kurama Shield", 1, "Chakra"));
