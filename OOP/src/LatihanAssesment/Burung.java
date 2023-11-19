@@ -11,5 +11,6 @@ public class Burung extends Hewan {
         System.out.println("Nama Hewan : " + namaBurung);
         System.out.println("Jenis Burung : " + jenisBurung);
         System.out.println("Suara Burung : " + suaraBurung);
+        System.out.println("\n");
     }
 }

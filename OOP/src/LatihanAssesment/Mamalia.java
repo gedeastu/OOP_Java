@@ -13,5 +13,6 @@ class Mamalia extends Hewan {
         System.out.println("Nama Hewan : " + namaMamalia);
         System.out.println("Jenis Mamalia : " + jenisMamalia);
         System.out.println("Suara Mamalia : " + suaraMamalia);
+        System.out.println("\n");
     }
 }
