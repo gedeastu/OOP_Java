@@ -1,8 +1,8 @@
 package LatihanAssesment;
 
 abstract class Hewan {
-    String nama;
-    int usia;
+    private String nama;
+    private int usia;
 
     public abstract void bersuara();
 
