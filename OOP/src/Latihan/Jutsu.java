@@ -1,4 +1,4 @@
-package Latihan01;
+package Latihan;
 
 public class Jutsu {
     String name;

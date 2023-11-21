@@ -1,4 +1,4 @@
-package Latihan01;
+package Latihan;
 
 public class Latihan01 {
     public static void main(String[] args) {

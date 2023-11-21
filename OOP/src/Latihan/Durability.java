@@ -1,4 +1,4 @@
-package Latihan01;
+package Latihan;
 
 public class Durability {
     String name;

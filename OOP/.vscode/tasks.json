@@ -8,7 +8,12 @@
             "args": [
                 "-cp",
                 "./bin",
-            ]
+                "com.Latihan02.latihan02"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
