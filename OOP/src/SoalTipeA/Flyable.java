@@ -1,5 +1,5 @@
 package SoalTipeA;
 
-public class Flyable {
-    
+interface Flyable {
+    public void fly();
 }

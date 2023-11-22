@@ -1,26 +1,22 @@
 package SoalTipeA;
 
-class Vehicle {
-    String make;
-    String model;    
+public abstract class Vehicle {
+    private String make;
+    private String model;    
 
-    Vehicle(String make, String model){
+    public Vehicle(String make, String model){
         this.make = make;
         this.model = model;
     }
 
+    public abstract void start();
+    public abstract void stop();
+    
     public String getMake(){
-        return this.make;
+        return make;
     }
 
     public String getModel(){
-        return this.model;
-    }
-
-    void start(){
-        System.out.println("Starting " + this.make + " " + this.model + " " + "car.");
-    }
-     void stop(){
-        System.out.println("Stopping " + this.make + " " + this.model + " " + "car.");
+        return model;
     }
 }
