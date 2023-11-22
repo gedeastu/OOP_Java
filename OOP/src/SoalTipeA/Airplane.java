@@ -29,6 +29,6 @@ public class Airplane extends Vehicle implements Flyable{
     }
 
     public void fly(){
-        System.out.println("Opening trunk of " + super.getMake() + " " + super.getModel());
+        System.out.println(super.getMake() + " " + super.getModel() + " is Flying");
     }
 }

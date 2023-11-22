@@ -3,8 +3,6 @@ package SoalTipeA;
 public class Boat extends Vehicle {
     private double length;
     
-
-    
     public Boat(String make, String model, double length){
         super(make, model);
         this.length = length; 
